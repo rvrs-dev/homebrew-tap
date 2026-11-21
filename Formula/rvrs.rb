@@ -1,28 +1,28 @@
 class Rvrs < Formula
   desc "traceroute, ping, MTR, dig and BGP in one binary"
   homepage "https://rvrs.dev"
-  version "0.9.0"
+  version "0.10.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/rvrs-dev/cli/releases/download/v0.9.0/rvrs-aarch64-apple-darwin.tar.gz"
-      sha256 "0e6f0da77a624af6851677a15c3c9fe3ecc506471e73591ba075070885e059f2"
+      url "https://github.com/rvrs-dev/cli/releases/download/v0.10.0/rvrs-aarch64-apple-darwin.tar.gz"
+      sha256 "fb2bd6ec6b70c64f73770d57fa132585e6b8309a35f7304afd77dcfc4eebeae9"
     end
     on_intel do
-      url "https://github.com/rvrs-dev/cli/releases/download/v0.9.0/rvrs-x86_64-apple-darwin.tar.gz"
-      sha256 "d37eb3abfc1887df22d1bf1c90feaba6bf8691983c5267eb4890992018090319"
+      url "https://github.com/rvrs-dev/cli/releases/download/v0.10.0/rvrs-x86_64-apple-darwin.tar.gz"
+      sha256 "4cc532bdab12522ccfa18806c832fff00bda35548ea68ee1a2df5416d1fb0a15"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rvrs-dev/cli/releases/download/v0.9.0/rvrs-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "096d605e9a089ed2436ab471b1dd07aabae7aa54d6e3566b12a2b0da09b7648b"
+      url "https://github.com/rvrs-dev/cli/releases/download/v0.10.0/rvrs-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0f17565e9b12c49744ca713930857ae08cd586bda1e352988859a248b65e477f"
     end
     on_intel do
-      url "https://github.com/rvrs-dev/cli/releases/download/v0.9.0/rvrs-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e707c072ebb6c8e6c4315afa0e2266b513852d1d9916d1036f5cf65bd25e48f7"
+      url "https://github.com/rvrs-dev/cli/releases/download/v0.10.0/rvrs-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "433c35c4e9691221cadf4310d95c7492488591ad65a4ea8775cd74f3b5ab83be"
     end
   end
 
